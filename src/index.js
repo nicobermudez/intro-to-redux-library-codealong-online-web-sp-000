@@ -5,4 +5,6 @@ import shoppingListItemReducer from './reducers/shoppingListItemReducer.js';
 import App from './App';
 import './index.css';
 
+const store = createStore(shoppingListItemReducer)
+
 ReactDOM.render(<App />, document.getElementById('root'));
